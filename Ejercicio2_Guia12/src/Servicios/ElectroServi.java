@@ -52,18 +52,18 @@ public class ElectroServi {
     }
     
     public Electrodomestico crearElectrodomestico(){
-        System.out.print("Ingrese el Electrodomestico a solicitar: ");
-        String respuesta = leerValores.next();
+        //System.out.print("Ingrese el Electrodomestico a solicitar: ");
+        //String respuesta = leerValores.next();
         
-        while(!(respuesta.equalsIgnoreCase("Lavadora")|| respuesta.equalsIgnoreCase("Televisor"))){
-            System.out.print("Los unicos electrodomesticos que se pueden solicitar son: Lavadora o Televisor \n"+
-                    "Intente nuevamente: ");
-            respuesta = leerValores.next();
-        }
-        if(respuesta.equalsIgnoreCase("lavadora")){
-            System.out.println("-----Solicitud de nueva "+respuesta+"-----");
+       // while(!(respuesta.equalsIgnoreCase("Lavadora")|| respuesta.equalsIgnoreCase("Televisor"))){
+       //     System.out.print("Los unicos electrodomesticos que se pueden solicitar son: Lavadora o Televisor \n"+
+       //             "Intente nuevamente: ");
+       //     respuesta = leerValores.next();
+       // }
+        if(getClass().getSimpleName().equals("LavadoraServicio")){
+            System.out.println("-----Solicitud de nueva Lavadora-----");
         }else{
-            System.out.println("-----Solicitud de nuevo "+respuesta+"-----");
+            System.out.println("-----Solicitud de nuevo Televisor-----");
         }
         
         System.out.print("Ingrese el color del electrodomestico: ");        
