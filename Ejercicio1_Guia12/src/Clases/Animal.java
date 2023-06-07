@@ -59,6 +59,6 @@ public abstract class Animal {
     
     
     public void alimentarse(){
-        System.out.println(" Que rico estuvo comer "+comida);
+        System.out.println(" Que rico estuvo comer "+comida+" para "+getClass().getSimpleName());
     }
 }
