@@ -62,7 +62,7 @@ public class MainEjercicio3_Guia12 {
                 sumaPrecioTelevisores += aux.getPrecio();
             }
         }
-        
+        //pirulin
         Double sumaPrecioElectro = sumaPrecioLavadoras+sumaPrecioTelevisores;
         System.out.println("La suma de los precios de todos los televisores es de: $"+sumaPrecioTelevisores+"\n"+
                 "La suma de los precios de todos las lavadoras es de: $"+sumaPrecioLavadoras+"\n"+
