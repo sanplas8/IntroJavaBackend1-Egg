@@ -14,7 +14,7 @@ import Servicios.PersonaServicios;
  *
  * @author toto_
  */
-public class Ejercicio3 {
+public class MAin {
 
     /**
      * @param args the command line arguments
