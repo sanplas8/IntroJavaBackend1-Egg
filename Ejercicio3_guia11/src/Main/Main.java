@@ -18,6 +18,5 @@ public class Main {
     public static void main(String[] args) {
         GestorBaraja nuevoMazo = new GestorBaraja();
         nuevoMazo.barajarYDar();
-    }
-    
+    }    
 }

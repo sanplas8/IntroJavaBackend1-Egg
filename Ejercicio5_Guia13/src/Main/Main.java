@@ -69,7 +69,7 @@ public class Main {
                     System.out.println("Te quedan " + intentos + " intentos");
                 } else {
                     intentos--;
-                    System.out.println("El numero a adivinar es mas bajo que el recien ingresado    ");
+                    System.out.println("El numero a adivinar es mas bajo que el recien ingresado");
                     System.out.println("Te quedan " + intentos + " intentos");
                 }
             } catch (InputMismatchException e) {
